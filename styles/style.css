@@ -419,17 +419,16 @@
 .footer__column_content_hours {
   text-color: white;
   z-index: 1;
-  position: absolute;
-  left: auto;
-  right: 100px;
+  margin-left: auto;
+  gap: 20px 16px;
 }
 
 .footer__column_content_social {
   text-color: white;
   z-index: 1;
-  position: relative;
-  left: 100px;
-  right: 102px;
+  margin-left: 100px;
+  margin-right: 102px;
+  gap: 20px 16px;
 }
 
 .footer__logo {
@@ -458,6 +457,10 @@
   text-decoration: none;
 }
 
+.footer__column-link:hover {
+  color: #c1c1c1;
+}
+
 .footer__social-icon {
   width: 16px;
   height: 16px;
@@ -465,4 +468,6 @@
 
 .footer__copyright {
   color: white;
+  margin-left: 80px;
+  padding-bottom: 60px;
 }
