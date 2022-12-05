@@ -122,9 +122,12 @@
   max-width: 760px;
   margin-top: 68px;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   gap: 40px;
   padding-left: 340px;
+  list-style: none;
+  margin: 0;
+  align-items: center;
 }
 
 .card {
@@ -313,6 +316,7 @@
   padding-top: 100px;
   padding-bottom: 140px;
   background-color: #f2f2f2;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 .membership__title {
@@ -362,6 +366,7 @@
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 .about__title {
@@ -369,8 +374,9 @@
   font-size: 20px;
   line-height: 30px;
   font-weight: 500;
-  z-index: 1;
+  z-index: 2;
   max-width: 154px;
+  position: relative;
 }
 
 .about__content {
@@ -380,7 +386,8 @@
   max-width: 660px;
   display: flex;
   gap: 32px;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   z-index: 1;
 }
 
@@ -403,6 +410,7 @@
 .footer {
   box-sizing: border-box;
   background-color: black;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 .footer__columns {
