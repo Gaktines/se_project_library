@@ -20,19 +20,19 @@
           <!-- Putting navigation links in a list is supposed to be the best practice of writing the semantic code since it allows screen readers to pause between each link instead of reading all the links as a sentence. -->
           <ul class="nav__links">
             <li>
-              <a class="nav__link">Staff picks</a>
+              <a class="nav__link" href="#anchor-staff">Staff picks</a>
             </li>
             <li>
-              <a class="nav__link">Events</a>
+              <a class="nav__link" href="#anchor-events">Events</a>
             </li>
             <li>
-              <a class="nav__link">Become a member</a>
+              <a class="nav__link" href="#anchor-membership">Become a member</a>
             </li>
             <li>
-              <a class="nav__link">About</a>
+              <a class="nav__link" href="#anchor-about">About</a>
             </li>
             <li>
-              <a class="nav__link">Contacts</a>
+              <a class="nav__link" href="#anchor-contacts">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -48,7 +48,7 @@
           class="header__image"
         />
         <div class="header__footer">
-          <a class="header__link">About the library &darr;</a>
+          <a class="header__link" href="#anchor-about">About the library &darr;</a>
           <p class="header__address">
             200 Success Avenue, The Town of Practicum
           </p>
@@ -57,7 +57,7 @@
 
       <main class="content">
         <section class="staff">
-          <h2 class="staff__title">Reader picks</h2>
+          <h2 class="staff__title" id="anchor-staff">Reader picks</h2>
           <p class="staff__subtitle">That our readers love</p>
           <!-- The ul tag (unordered list) is used here as it is a collection of cards for which the order doesn't really matter. -->
 
@@ -121,7 +121,7 @@
 
         <section class="events">
           <div class="events__content">
-            <h2 class="events__heading">Upcoming events:</h2>
+            <h2 class="events__heading" id="anchor-events">Upcoming events:</h2>
             <h3 class="events__title">
               In honor of Joan Feynman: Women in astrophysics
             </h3>
@@ -166,7 +166,7 @@
             <div class="person person_name_burbidge">
                 <p class="person__caption">Margaret Burbidge</p>
                 <img
-                  class="person__image person__image_size_l"
+                  class="person__image person__image_size_m"
                   src="./images/person_burbidge.png"
                   alt="Margaret Burbidge Pic"
                 />
@@ -174,7 +174,7 @@
             <div class="person person_name_cannon">
 
                 <img
-                  class="person__image person__image_size_l"
+                  class="person__image person__image_size_m"
                   src="./images/person_cannon.png"
                   alt="Annie Jump Cannon Pic"
                 />
@@ -184,7 +184,7 @@
             <div class="person person_name_mitchell">
 
                 <img
-                  class="person__image person__image_size_l"
+                  class="person__image person__image_size_s"
                   src="./images/person_mitchell.png"
                   alt="Maria Mitchell Pic"
                 />
@@ -193,7 +193,7 @@
             <div class="person person_name_tarter">
                 <p class="person__caption">Jill Tarter</p>
                 <img
-                  class="person__image person__image_size_l"
+                  class="person__image person__image_size_m"
                   src="./images/person_tarter.png"
                   alt="Jill Tarter Pic"
                 />
@@ -202,7 +202,7 @@
           </div>
         </section>
         <section class="membership">
-          <h2 class="membership__title">Becoming a library member is easy!</h2>
+          <h2 class="membership__title" id="anchor-membership">Becoming a library member is easy!</h2>
           <ul class="membership__steps">
             <li class="step">
               <h3 class="step__title">
@@ -257,7 +257,7 @@
           </ul>
         </section>
         <section class="about">
-          <h2 class="about__title">About the library</h2>
+          <h2 class="about__title" id="anchor-about">About the library</h2>
           <div class="about__content">
 
             <p class="about__paragraph">
@@ -282,7 +282,7 @@
         </section>
       </main>
       <footer class="footer">
-        <section class="footer__columns">
+        <div class="footer__columns">
           <div class="footer__column">
             <img
               src="./images/logo_practicum.svg"
@@ -291,7 +291,7 @@
             />
           </div>
           <div class="footer__column footer__column_content_hours">
-            <h2 class="footer__column-heading">Hours</h2>
+            <h2 class="footer__column-heading" id="anchor-contacts">Hours</h2>
             <ul class="footer__list">
               <li class="footer__list-item">
                 <p>Weekdays: 9am-8pm</p>
@@ -326,7 +326,7 @@
             </ul>
           </div>
 
-        </section>
+        </div>
         <p class="footer__copyright">2022 George Aktines</p>
         <!-- The time to mark up the footer has come, you can do it 💪 -->
       </footer>
