@@ -120,6 +120,8 @@
 }
 
 .staff__list {
+  padding: 0;
+  margin-bottom: 0;
   display: flex;
   max-width: 760px;
   flex-wrap: wrap;
